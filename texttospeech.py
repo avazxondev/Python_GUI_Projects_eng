@@ -91,9 +91,6 @@ Logo = PhotoImage(file='mic3.png')
 Label(Top_Frame,image=Logo,bg='#7AC5CD').place(x=10,y=5)
 Label(Top_Frame,text="TEXT TO SPEECH", font='arila 20 bold',bg='#7AC5CD',fg='black').place(x=120, y=30)
 
-#gif area
-#Label(Top_Frame,text="TEXT TO SPEECH", font='arila 20 bold',bg='white',fg='black').place(x=120, y=30)
-
 ####### Text area 
 
 text_area = Text(root,font='Robote 20',bg='white',relief=GROOVE, wrap=WORD)
